@@ -1,0 +1,34 @@
+{
+  "name": "slack-message-miner",
+  "version": "1.0.0",
+  "description": "Slack Message Miner is a Slack app that captures and aggregates messages from a designated channel.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsubasahomma/slack-message-miner.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "Tsubasa Homma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsubasahomma/slack-message-miner/issues"
+  },
+  "homepage": "https://github.com/tsubasahomma/slack-message-miner#readme",
+  "dependencies": {
+    "@slack/bolt": "^4.2.1",
+    "dotenv": "^16.4.7",
+    "json2csv": "^6.0.0-alpha.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

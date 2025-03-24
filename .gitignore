@@ -1,0 +1,148 @@
+# =====================================
+# Logs and Diagnostics
+# =====================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# =====================================
+# Runtime Data / PIDs / Instrumentation
+# =====================================
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+
+# =====================================
+# Coverage
+# =====================================
+coverage
+*.lcov
+.nyc_output
+
+# =====================================
+# Build / Compilation / Addons
+# =====================================
+.grunt
+bower_components
+.lock-wscript
+build/Release
+*.tsbuildinfo
+*.tgz
+
+# =====================================
+# Dependency directories
+# =====================================
+node_modules/
+jspm_packages/
+web_modules/
+
+# =====================================
+# Caches
+# =====================================
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# =====================================
+# User / Editor Files
+# =====================================
+.node_repl_history
+.yarn-integrity
+
+# =====================================
+# Environment Variables
+# =====================================
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# =====================================
+# Frontend / Build Tools
+# =====================================
+.cache
+.parcel-cache
+.next
+out
+.nuxt
+dist
+.cache/
+.vuepress/dist
+.temp
+**/.vitepress/dist
+**/.vitepress/cache
+.docusaurus
+
+# =====================================
+# Serverless / Tool Specific
+# =====================================
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+
+# =====================================
+# IDE / Editor Tools
+# =====================================
+.vscode-test
+
+# =====================================
+# Yarn v2
+# =====================================
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# =====================================
+# Slack Output
+# =====================================
+output/
+
+# =====================================
+# OS / System Files
+# =====================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+._*
